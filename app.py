@@ -7,7 +7,7 @@ data=[{"firstname":"Akriti " , "lastname ":"Mishra" ,"company":"Abzooba"},
 app=Flask(__name__)
 
 @app.route("/")
-def home():
+def welcome():
    return data
 @app.route("/home")
 def home():
